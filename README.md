@@ -1,4 +1,6 @@
-# crud
+# CRUD
+
+Netlify link to app: https://trusting-easley-f4eeac.netlify.app/
 
 ## Project setup
 ```
