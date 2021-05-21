@@ -40,7 +40,8 @@ export default {
     display: flex
     align-items: flex-start
     flex-wrap: wrap
-    gap: 7px
+    margin-left: -3px
+    margin-right: -3px
     @media (max-width: 767.9px)
         width: 100%
         justify-content: center
@@ -53,6 +54,7 @@ export default {
         letter-spacing: 1px
         border-radius: 3px
         width: min-content
+        margin: 3px
         @media (min-width: 992px), (max-width: 519.9px)
             white-space: nowrap
 .bid

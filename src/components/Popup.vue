@@ -16,7 +16,7 @@
                 <p class="popup__info"><small>* all fields are required</small></p>
 
                 <div class="input-container" id="name">
-                    <input type="text" name="name" placeholder="add company name" v-model="modelValue.name" required>
+                    <input type="text" name="name" placeholder="add company name" v-model="modelValue.name" >
                 </div>
                 
                 <div class="input-container" id="keywords">
@@ -306,8 +306,20 @@ export default {
             padding: 15px
             outline: none
             border: 1px solid var(--gray-light-3)
+            height: 46px
+
             &:focus, &:active
                 border: 1px solid var(--black)
+        select
+            -webkit-appearance: none
+            -moz-appearance: none
+            border-radius: 0
+            background-color: var(--white)
+            background-image: url('../assets/arr.svg')
+            background-repeat: no-repeat
+            background-position: 95% 50%
+            background-size: 14px
+
         .keywords 
             width: 100%
             justify-content: flex-start
