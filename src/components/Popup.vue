@@ -134,10 +134,12 @@ export default {
 
         handleUpdate(){
             this.keywords.length === 0 ? null : this.modelValue.keywords = [...this.keywords]
+            this.keywords = [];
             this.$emit('update')
         },
         handleAdd(){
             this.modelValue.keywords = [...this.keywords]
+            this.keywords = [];
             this.$emit('add')
         }
        
